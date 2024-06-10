@@ -33,7 +33,7 @@ const isAdmin = (user1:LoginDetails): string =>  {
 
 const {name , email, role} = user1;
 
-return role === "admin" ? `${email} is allow to edit the website` : `${name} is not allow to edit the website`
+return role === "admin" ? `${email} is allow to edit the website` : `${email} is not allow to edit the website`
 
 }
 console.log(isAdmin(user1));
