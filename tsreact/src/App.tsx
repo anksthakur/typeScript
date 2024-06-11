@@ -6,7 +6,7 @@ function App() {
     <>
       <div>
         <h1>React TS</h1>
-      <Button text="Click Me"/>
+      {/* <Button text="Click Me"/> */}
         <Button onClick={() => alert("Anup")} text="Click Me Again"/>
       </div>
     </>
